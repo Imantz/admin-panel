@@ -2,12 +2,13 @@
 
   Todo:
 
-This will install json-server.
+
+  open 'db' folder in terminal and type:
+
 ```sh
 $ npm install -g json-server
 ```
-  open 'db' folder in terminal and type:
-
+.then
 ```sh
 $ json-server --watch db.json --port 3001
 ```
