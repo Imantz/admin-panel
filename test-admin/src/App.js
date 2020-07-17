@@ -5,7 +5,7 @@ import { BookList, BookEdit, BookCreate } from './books';
 import { AuthorList, AuthorEdit, AuthorCreate } from './authors';
 import { ReviewList, ReviewEdit, ReviewCreate } from './reviews';
 import authProvider from './authProvider';
-const dataProvider = jsonServerProvider('http://localhost:3001');
+const dataProvider = jsonServerProvider('https://v2-api.sheety.co/b1503efbcd7101e7ac403162d441cdbc/test');
 const App = () => (
   <Admin dataProvider={dataProvider} authProvider={authProvider}>
     <Resource
