@@ -1,0 +1,30 @@
+{
+  "books": [
+    {
+      "title": "title #1",
+      "id": 1
+    },
+    {
+      "title": "# title 2",
+      "id": 2
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "author": "author #1"
+    },
+    {
+      "author": "author #2",
+      "id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "text": " review #9939",
+      "id": 1
+    }
+  ]
+}
